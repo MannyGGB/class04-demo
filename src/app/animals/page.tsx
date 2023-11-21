@@ -1,5 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: `Animal Blog`,
+  description: "my favourite pets",
+};
 type petsSearchQuery = {
   sortBy: string;
 };
